@@ -1,0 +1,38 @@
+
+.container-fluid {
+  background-color: rgb(81,51,164) !important;
+  border-radius: 0, 15px, 15px, 0;
+  padding: 0;
+}
+.navbar {
+   background-color: rgb(81,51,164) !important;
+   font-weight: bold;
+   color: white;
+   font-size: 25px !important;
+   top: 0;
+   width: 100%;
+   position: fixed;
+}
+#instructions {
+  background: url("./images/architecture-auditorium-boxes-1544947.jpg");
+  background-size: cover;
+  height: 27em;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+#instructiondiv {
+  margin-top: 60px
+}
+#clickytext{
+  padding: 30px;
+}
+#instrucitontext {
+  padding: 60px;
+}
+
+.carddiv {
+  height: 30px;
+  width: 30px;
+}
