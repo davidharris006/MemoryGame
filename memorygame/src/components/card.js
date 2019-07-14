@@ -4,11 +4,10 @@ import React from "react";
 
 function Card(props) {
 
-
     return (
-        <div class="cards">
+        <div className="cards col-lg-3">
 
-            <img class="carddiv" id={props.id} src={props.src} is-clicked="false" alt='Game PICTURE' onClick={props.onClick} />
+            <img className="cardimg" id={props.id}  src={props.src} clicked={props.clicked} alt='Game PICTURE' onClick={props.onClick} />
 
             
         </div>
