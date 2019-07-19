@@ -3,7 +3,6 @@ import logo from './logo.svg';
 import './App.css';
 import Topbar from './components/topbar'
 import Instructions from './components/instruction'
-// import Game from './components/gamecontainer'
 import Card from "./components/card"
 import customData from "./data.json"
 
@@ -13,47 +12,40 @@ class App extends Component {
   state = {
     tiles: customData,
     topscore: 0,
-    score: 0
+    score: 0,
+    idclicked: []
+}
+
+resetGame = () => {
+  alert("YOU LOST TRY AGAIN PLEASE!")
+  this.setState({
+   ...this.state,
+    tiles: customData,
+    score: 0,
+    idclicked: []
+  })
 }
 
 clickOnCard = ({target: { id }}) => {
-  if(this.state.tiles[id].clicked === "false"){
-    var newerArray= [];
-    let newdata = {}
-    newdata =this.state.tiles[id]
-    newdata= {
-    ...newdata,
-    clicked: "true"
-    }
-    let intId = parseFloat(id)
-    console.log('has not been clicked')
-    
-    newerArray = this.state.tiles.map((tile) => {
-     
-     if (tile.id !== id) {
-       
-         return tile
-      }
-      else if (tile.id = id) {
-        return newdata
-        console.log("done");
-      }
-      
-    }) 
-    console.log(newerArray)
-    console.log(newdata);
-    // newerArray.push(newdata)
+let newerArray = []
+  if(this.state.idclicked.includes(id) === false) {
+    newerArray = this.state.tiles.map((tile)=>{
+      return tile
+    })
     newerArray.sort(function(a, b){return 0.5 - Math.random()})
     this.setState({
-     
+      ...this.state,
       score: this.state.score + 1,
       topscore: this.state.score === this.state.topscore ? this.state.topscore + 1 : this.state.topscore,
-      tiles: newerArray
+      tiles: newerArray,
+      idclicked: [...this.state.idclicked, id]
     })
- }
- else if (this.state.tiles[id].clicked === "true"){
+    
+    
 
-console.log("BOO YOU LOSE");
+ }
+ else {
+   this.resetGame()
  }
 }
 
