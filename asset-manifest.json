@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/davidharris006/MemoryGame/static/css/main.6b7890b8.chunk.css",
-    "main.js": "/davidharris006/MemoryGame/static/js/main.236448a7.chunk.js",
-    "main.js.map": "/davidharris006/MemoryGame/static/js/main.236448a7.chunk.js.map",
-    "runtime~main.js": "/davidharris006/MemoryGame/static/js/runtime~main.86835307.js",
-    "runtime~main.js.map": "/davidharris006/MemoryGame/static/js/runtime~main.86835307.js.map",
-    "static/js/2.97433306.chunk.js": "/davidharris006/MemoryGame/static/js/2.97433306.chunk.js",
-    "static/js/2.97433306.chunk.js.map": "/davidharris006/MemoryGame/static/js/2.97433306.chunk.js.map",
-    "index.html": "/davidharris006/MemoryGame/index.html",
-    "precache-manifest.bc1c942af74fdc663addf9219b5b4982.js": "/davidharris006/MemoryGame/precache-manifest.bc1c942af74fdc663addf9219b5b4982.js",
-    "service-worker.js": "/davidharris006/MemoryGame/service-worker.js",
-    "static/css/main.6b7890b8.chunk.css.map": "/davidharris006/MemoryGame/static/css/main.6b7890b8.chunk.css.map",
-    "static/media/logo.svg": "/davidharris006/MemoryGame/static/media/logo.5d5d9eef.svg"
+    "main.css": "/MemoryGame/static/css/main.6b7890b8.chunk.css",
+    "main.js": "/MemoryGame/static/js/main.7c0965ac.chunk.js",
+    "main.js.map": "/MemoryGame/static/js/main.7c0965ac.chunk.js.map",
+    "runtime~main.js": "/MemoryGame/static/js/runtime~main.d54f135b.js",
+    "runtime~main.js.map": "/MemoryGame/static/js/runtime~main.d54f135b.js.map",
+    "static/js/2.97433306.chunk.js": "/MemoryGame/static/js/2.97433306.chunk.js",
+    "static/js/2.97433306.chunk.js.map": "/MemoryGame/static/js/2.97433306.chunk.js.map",
+    "index.html": "/MemoryGame/index.html",
+    "precache-manifest.b7d90c102a50bbf1e95d953af6f0286e.js": "/MemoryGame/precache-manifest.b7d90c102a50bbf1e95d953af6f0286e.js",
+    "service-worker.js": "/MemoryGame/service-worker.js",
+    "static/css/main.6b7890b8.chunk.css.map": "/MemoryGame/static/css/main.6b7890b8.chunk.css.map",
+    "static/media/logo.svg": "/MemoryGame/static/media/logo.5d5d9eef.svg"
   }
 }
