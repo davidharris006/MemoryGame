@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/davidharris006/MemoryGame/static/css/main.6b7890b8.chunk.css",
+    "main.js": "/davidharris006/MemoryGame/static/js/main.236448a7.chunk.js",
+    "main.js.map": "/davidharris006/MemoryGame/static/js/main.236448a7.chunk.js.map",
+    "runtime~main.js": "/davidharris006/MemoryGame/static/js/runtime~main.86835307.js",
+    "runtime~main.js.map": "/davidharris006/MemoryGame/static/js/runtime~main.86835307.js.map",
+    "static/js/2.97433306.chunk.js": "/davidharris006/MemoryGame/static/js/2.97433306.chunk.js",
+    "static/js/2.97433306.chunk.js.map": "/davidharris006/MemoryGame/static/js/2.97433306.chunk.js.map",
+    "index.html": "/davidharris006/MemoryGame/index.html",
+    "precache-manifest.bc1c942af74fdc663addf9219b5b4982.js": "/davidharris006/MemoryGame/precache-manifest.bc1c942af74fdc663addf9219b5b4982.js",
+    "service-worker.js": "/davidharris006/MemoryGame/service-worker.js",
+    "static/css/main.6b7890b8.chunk.css.map": "/davidharris006/MemoryGame/static/css/main.6b7890b8.chunk.css.map",
+    "static/media/logo.svg": "/davidharris006/MemoryGame/static/media/logo.5d5d9eef.svg"
+  }
+}
