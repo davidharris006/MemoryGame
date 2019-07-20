@@ -20,7 +20,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage": "https://davidharris006.github.io/MemoryGame/np",
+  "homepage": "https://davidharris006.github.io/MemoryGame/",
   "browserslist": {
     "production": [
       ">0.2%",
